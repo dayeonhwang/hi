@@ -1,0 +1,6 @@
+{
+    "name": "socket-skype",
+    "version": "0.0.1",
+    "description": "Guineapig's first socket.io app",
+    "dependencies":{} 
+}
