@@ -3,7 +3,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 app.get('/',function(req, res){
-	res.sendFile('/Users/dayeonhwang/Documents/Hi/index.html');
+	res.sendFile(__dirname + '/index.html');
 });
 
 http.listen(5000,function(){
